@@ -34,7 +34,7 @@
           <source src="mobile View.mp4" type="video/mp4" />
         </video>
         <div class="w3-display-bottomleft w3-padding">
-          <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+          <span class="w3-tag w3-large">Open from 10am to 12pm</span>
         </div>
         <div class="w3-display-middle w3-center">
           <!-- <span class="w3-text-white w3-hide-small" style="font-size: 100px"
@@ -55,11 +55,11 @@
             class="w3-text-white w3-hide-small"
             style="font-size: 100px; min-height: 2em"
           ></p>
-          <p>
+          <!-- <p>
             <a href="#menu" class="w3-button w3-xlarge w3-black"
               >Let me see the menu</a
             >
-          </p>
+          </p> -->
         </div>
       </div>
     </header>
@@ -80,7 +80,7 @@
           </a>
           <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
             <div class="w3-col s4 tablink w3-padding-large w3-hover-red">
-              Salads
+              Pasta
             </div>
           </a>
           <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
@@ -88,9 +88,19 @@
               Starter
             </div>
           </a>
-          <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Beverage');">
+            <div class="w3-col s4 tablink w3-padding-large w3-hover-red" style="text-align: left;">
+              Beverage
+            </div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Salads');">
             <div class="w3-col s4 tablink w3-padding-large w3-hover-red">
-              Drinks
+              Salads
+            </div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Desserts');">
+            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">
+              Desserts
             </div>
           </a>
         </div>
@@ -211,7 +221,7 @@
           </h1>
           <p class="w3-text-black">Tomatoes and mozzarella</p>
         </div>
-        <div id="Drinks" class="w3-container menu w3-padding-32 w3-white">
+        <div id="Beverage" class="w3-container menu w3-padding-32 w3-white">
           <h1>
             <b>Today's drink</b>
             <span class="w3-tag w3-grey w3-round">Seasonal</span
@@ -242,6 +252,56 @@
           </h1>
           <p class="w3-text-black">Stay hydrated</p>
         </div>
+        <div id="Salads" class="w3-container menu w3-padding-32 w3-white">
+          <h1>
+            <b>Chicken</b>
+            <span class="w3-tag w3-grey w3-round">⭐</span
+            ><span class="w3-right w3-tag w3-dark-grey w3-round">5.50</span>
+          </h1>
+          <p class="w3-text-black">white sauce, garlic and cheese</p>
+          <hr />
+
+          <h1>
+            <b>Greek</b>
+            <span class="w3-right w3-tag w3-dark-grey w3-round">8.50</span>
+          </h1>
+          <p class="w3-text-black">
+            Basil, garlic and cheese
+          </p>
+          <hr />
+
+          <h1>
+            <b>Fungo</b>
+            <span class="w3-right w3-tag w3-dark-grey w3-round">9.50</span>
+          </h1>
+          <p class="w3-text-black">Mashroom and white sauce</p>
+          <hr />
+        </div>
+        <div id="Desserts" class="w3-container menu w3-padding-32 w3-white">
+          <h1>
+            <b>Cheese Cake</b>
+            <span class="w3-tag w3-grey w3-round">⭐</span
+            ><span class="w3-right w3-tag w3-dark-grey w3-round">5.50</span>
+          </h1>
+          <p class="w3-text-black">Caramel, blueberry, strawbery and lotus</p>
+          <hr />
+
+          <h1>
+            <b>Brownies</b>
+            <span class="w3-right w3-tag w3-dark-grey w3-round">8.50</span>
+          </h1>
+          <p class="w3-text-black">
+            Chocolate chips
+          </p>
+          <hr />
+
+          <h1>
+            <b>Kunafa</b>
+            <span class="w3-right w3-tag w3-dark-grey w3-round">9.50</span>
+          </h1>
+          <p class="w3-text-black">Cheese</p>
+          <hr />
+        </div>
         <br />
       </div>
     </div>
@@ -260,9 +320,10 @@
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
           ea commodo consequat.
         </p>
-        <p><strong>The Chef?</strong> Mr. Italiano himself</p>
+        <p>The Chef? Mr. Italiano himself</p>
         <p>We are proud of our interiors.</p>
-        <h1><b>Opening Hours</b></h1>
+        <br><br>
+        <h3><b>Opening Hours</b></h3>
 
         <div class="w3-row">
           <div class="w3-col s6">
