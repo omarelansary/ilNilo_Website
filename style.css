@@ -1,13 +1,9 @@
 body,html {
 height: 100%;
 }
-body,h2,h3,h4,h5,h6 {
+body,h1,h2,h3,h4,h5,h6 {
 /* font-family: "Amatic SC", sans-serif; */
-/* font-family: "Italiana" */
-font-family: "fairplex-narrow", serif;
-}
-h1{
-  font-family: "Italiana"  
+font-family: "Italiana"
 }
 .menu {
 display: none;
